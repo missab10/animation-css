@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header{
+    position: absolute;
+    top:15px ;
+    text-align: right;
+    width: 100%;
+    
+}
+header a{
+    color:rgb(255, 255, 255,0.5);
+    text-decoration: none;
+    margin-right: 100px;
+    font-family: Thahoma;
+    font-size: 20px;
+    transition: 0.5s ease-out;
+}
+header a:hover{
+    color: white;
+}
+main{
+    background-image: url("./image/large2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main h1{
+    margin: 0;
+    position: absolute;
+    font-size: 60px;
+    color: black;
+    mix-blend-mode: overlay;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%); */
+
+}
